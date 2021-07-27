@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ActParaItem_comboBox</class>
+ <widget class="QWidget" name="ActParaItem_comboBox">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>404</width>
+    <height>48</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>336</width>
+    <height>38</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>48</height>
+   </size>
+  </property>
+  <property name="sizeIncrement">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="spacing">
+    <number>20</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QLabel" name="lblParaName">
+     <property name="minimumSize">
+      <size>
+       <width>210</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>210</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:#00ADE5;</string>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="WgtComBox">
+     <property name="minimumSize">
+      <size>
+       <width>150</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>150</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QComboBox{border-image: url(:/image/border2.png);/*background-color:#272A5E; */border:0px solid #238dff;border-radius:2px;font-size:18;color: #FFFFFF;}
+/*QComboBox:focus{border-radius:0px; border: 2px solid rgb(255, 128, 0);}*/
+QComboBox:disabled{border:0px solid #238dff;border-radius: 0px;background-color:darkgray;}
+QComboBox QAbstractItemView{outline: 0px;}
+QComboBox QAbstractItemView::item{height:30px; border: 0px solid lightGray; selection-background-color: rgb(45, 214, 218); selection-color:   #FFFFFF;}
+QComboBox::down-arrow{image:url(:/image/down_Arrow_2.png);}
+QComboBox::drop-down{subcontrol-origin: padding; subcontrol-position: center right;border-left-width: 0px;border-left-color: gray;border-left-style: solid;border: 0px lightgray; width: 35px; height: 48px;}
+
+QListView{background-color:#034F84;border-radius:5px; border: 1px solid #08B6F1;color: #00ADE5;}
+QListView::item:focus{border-image: url(:/image/chileditem_select.png);border-radius:0px; border: 0px solid rgb(33, 59, 106);outline: none;}
+
+QScrollBar:vertical {border:0px solid rgb(52, 72, 105);background:rgb(52, 72, 105);width:30px;margin:30 0 30 0px;}
+QScrollBar::handle:vertical{ background: rgb(41, 142, 214);width:10px; height: 20px ; }
+QScrollBar::add-line:vertical {border:1px solid rgb(52, 134, 208);background:rgb(52, 134, 208);height:30px;subcontrol-position:bottom;subcontrol-origin:margin;}
+QScrollBar::sub-line:vertical {border:1px solid rgb(52, 134, 208);background:rgb(52, 134, 208);height:30px;subcontrol-position:top;subcontrol-origin:margin;}
+QScrollBar::down-arrow:vertical {width:25px;height:25px; border-image:url(:/image/down_Arrow_2.png);}
+QScrollBar::up-arrow:vertical {width:25px;height:25px;border-image:url(:/image/up_Arrow_1.png);}
+QScrollBar::add-page:vertical {background:rgb(52, 72, 105);}
+QScrollBar::sub-page:vertical {background:rgb(52, 72, 105);}</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
